@@ -23,7 +23,7 @@ provider "google" {
   region  = var.gcp_region
 }
 
-# Azure General Configuration
-provider "azurerm" {
-  version = "~>1.32.1"
-}
+# # Azure General Configuration
+# provider "azurerm" {
+#   version = "~>1.32.1"
+# }
